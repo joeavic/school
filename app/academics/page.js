@@ -70,7 +70,7 @@ export default function Academics() {
         
         {/* Educational Philosophy */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-black text-[#003366]">Our Educational Philosophy</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-black text-[#23704a]">Our Educational Philosophy</h2>
           <div className="bg-white p-6 shadow-md rounded-md">
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-2/3">
@@ -86,7 +86,7 @@ export default function Academics() {
               </div>
               <div className="md:w-1/3">
                 <div className="bg-gray-100 p-4 rounded-md">
-                  <h3 className="text-xl font-semibold mb-2 text-[#003366]">Key Principles</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-[#23704a]">Key Principles</h3>
                   <ul className="list-disc pl-5 space-y-2 text-black">
                     <li>Student-centered learning</li>
                     <li>Inquiry-based approach</li>
@@ -103,21 +103,21 @@ export default function Academics() {
         
         {/* Academic Programs */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#003366]">Academic Programs</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-[#23704a]">Academic Programs</h2>
           
           <div className="space-y-6">
             {academicPrograms.map((program) => (
               <div key={program.id} className="bg-white p-6 shadow-md rounded-md">
                 <div className="flex flex-col md:flex-row justify-between">
                   <div className="md:w-7/12">
-                    <h3 className="text-xl font-bold text-[#003366] mb-1">{program.name}</h3>
+                    <h3 className="text-xl font-bold text-[#23704a] mb-1">{program.name}</h3>
                     <p className="text-sm text-gray-600 mb-3">{program.grades}</p>
                     <p className="mb-4 text-black">{program.description}</p>
                     
-                    <h4 className="font-semibold text-[#003366] mb-2">Core Subjects</h4>
+                    <h4 className="font-semibold text-[#23704a] mb-2">Core Subjects</h4>
                     <div className="flex flex-wrap gap-2 mb-4 text-black">
                       {program.subjects.map((subject, index) => (
-                        <span key={index} className="bg-blue-100 text-[#003366] px-3 py-1 rounded-full text-sm">
+                        <span key={index} className="bg-blue-100 text-[#23704a] px-3 py-1 rounded-full text-sm">
                           {subject}
                         </span>
                       ))}
@@ -126,7 +126,7 @@ export default function Academics() {
                   
                   <div className="md:w-4/12 mt-4 md:mt-0">
                     <div className="bg-gray-100 p-4 rounded-md h-full">
-                      <h4 className="font-semibold text-[#003366] mb-2">Program Features</h4>
+                      <h4 className="font-semibold text-[#23704a] mb-2">Program Features</h4>
                       <ul className="space-y-2 text-black">
                         {program.features.map((feature, index) => (
                           <li key={index} className="flex items-start">
@@ -147,10 +147,10 @@ export default function Academics() {
         
         {/* Teaching Methodology */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Teaching Methodology</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Teaching Methodology</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#003366]">Experiential Learning</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Experiential Learning</h3>
               <p className="mb-4 text-black">
                 Our teachers employ experiential learning techniques that allow students to learn by doing. Through hands-on activities, experiments, and real-world applications, students develop deeper understanding and retention of concepts.
               </p>
@@ -164,7 +164,7 @@ export default function Academics() {
             </div>
             
             <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#003366]">Collaborative Learning</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Collaborative Learning</h3>
               <p className="mb-4 text-black text-black">
                 We encourage collaboration through group projects, peer teaching, and team-based activities. This approach helps students develop communication skills, empathy, and the ability to work effectively in diverse teams.
               </p>
@@ -178,7 +178,7 @@ export default function Academics() {
             </div>
             
             <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#003366]">Technology Integration</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Technology Integration</h3>
               <p className="mb-4 text-black text">
                 We integrate technology into our curriculum to enhance learning experiences and prepare students for the digital age. Our smart classrooms, computer labs, and digital resources make learning more interactive and engaging.
               </p>
@@ -192,7 +192,7 @@ export default function Academics() {
             </div>
             
             <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#003366]">Personalized Approach</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Personalized Approach</h3>
               <p className="mb-4 text-black">
                 We recognize that each child learns differently. Our teachers use differentiated instruction techniques to cater to various learning styles and abilities, ensuring that every student receives the support they need to excel.
               </p>
@@ -209,7 +209,7 @@ export default function Academics() {
         
         {/* Assessment System */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Assessment System</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Assessment System</h2>
           <div className="bg-white p-6 shadow-md rounded-md">
             <p className="mb-6 text-black">
               Our assessment system is designed to be comprehensive, continuous, and balanced. We believe in evaluating not just academic knowledge but also skills, attitudes, and values. Our approach to assessment includes:
@@ -224,14 +224,14 @@ export default function Academics() {
               </div>
               
               <div className="border border-gray-200 rounded-md p-4">
-                <h3 className="text-lg font-semibold mb-2 text-[#003366]">Summative Assessment</h3>
+                <h3 className="text-lg font-semibold mb-2 text-[#23704a]">Summative Assessment</h3>
                 <p className='text-black'>
                   End-of-term and end-of-year assessments to evaluate cumulative learning outcomes. These include unit tests, term examinations, and final examinations.
                 </p>
               </div>
               
               <div className="border border-gray-200 rounded-md p-4">
-                <h3 className="text-lg font-semibold mb-2 text-[#003366]">Performance Assessment</h3>
+                <h3 className="text-lg font-semibold mb-2 text-[#23704a]">Performance Assessment</h3>
                 <p className='text-black'>
                   Evaluation of practical skills, applications, and real-world problem-solving abilities through lab work, presentations, and demonstrations.
                 </p>
@@ -239,7 +239,7 @@ export default function Academics() {
             </div>
             
             <div className="mt-6">
-              <h3 className="text-lg font-semibold mb-2 text-[#003366]">Report Cards</h3>
+              <h3 className="text-lg font-semibold mb-2 text-[#23704a]">Report Cards</h3>
               <p className='text-black'>
                 Comprehensive report cards are issued at the end of each term, providing detailed feedback on academic performance, personal development, and areas for improvement. Parent-teacher meetings are scheduled after each reporting period to discuss student progress.
               </p>
@@ -249,7 +249,7 @@ export default function Academics() {
         
         {/* Extracurricular Activities */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Beyond Academics</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Beyond Academics</h2>
           <div className="bg-white p-6 shadow-md rounded-md">
             <p className="mb-6 text-black">
               At Nosegay Public School, we believe that education extends beyond the classroom. We offer a wide range of extracurricular activities that complement our academic program and help students develop holistically.
@@ -298,18 +298,18 @@ export default function Academics() {
             </div>
             
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-[#003366]">Annual Events</h3>
+              <h3 className="text-lg font-semibold mb-2 text-[#23704a]">Annual Events</h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="border border-gray-200 rounded-md p-3">
-                  <h4 className="font-medium text-[#003366] mb-1">Cultural Festival</h4>
+                  <h4 className="font-medium text-[#23704a] mb-1">Cultural Festival</h4>
                   <p className="text-sm text-black">A celebration of diverse cultures through performances, exhibitions, and food.</p>
                 </div>
                 <div className="border border-gray-200 rounded-md p-3">
-                  <h4 className="font-medium text-[#003366] mb-1">Sports Meet</h4>
+                  <h4 className="font-medium text-[#23704a] mb-1">Sports Meet</h4>
                   <p className="text-sm text-black">Annual athletic competition showcasing physical fitness and sportsmanship.</p>
                 </div>
                 <div className="border border-gray-200 rounded-md p-3">
-                  <h4 className="font-medium text-[#003366] mb-1">Science Exhibition</h4>
+                  <h4 className="font-medium text-[#23704a] mb-1">Science Exhibition</h4>
                   <p className="text-sm text-black">Display of innovative projects and experiments by students.</p>
                 </div>
               </div>
@@ -318,13 +318,13 @@ export default function Academics() {
         </section>
         
         {/* CTA Section */}
-        <section className="bg-[#003366] text-white p-8 rounded-md text-center">
+        <section className="bg-[#23704a] text-white p-8 rounded-md text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Experience Our Academic Excellence</h2>
           <p className="mb-6 max-w-2xl mx-auto">
             We invite you to visit our campus and experience our teaching methodology and academic programs firsthand.
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
-            <button className="bg-white text-[#003366] px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
+            <button className="bg-white text-[#23704a] px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
               Request Prospectus
             </button>
             <button className="bg-transparent border border-white text-white px-6 py-3 rounded-md font-bold hover:bg-white/10 transition-colors">

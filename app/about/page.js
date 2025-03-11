@@ -32,7 +32,7 @@ export default function About() {
         
         {/* School History */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Our History</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Our History</h2>
           <div className="bg-white p-6 shadow-md rounded-md">
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-2/3">
@@ -48,7 +48,7 @@ export default function About() {
               </div>
               <div className="md:w-1/3">
                 <div className="bg-gray-100 p-4 rounded-md">
-                  <h3 className="text-xl font-semibold mb-2 text-[#003366]">Key Milestones</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-[#23704a]">Key Milestones</h3>
                   <ul className="list-disc pl-5 space-y-2 text-black">
                     <li>1995 - School founded with 50 students</li>
                     <li>2000 - Expanded to include secondary education</li>
@@ -65,16 +65,16 @@ export default function About() {
         
         {/* Mission & Vision */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Our Mission & Vision</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Our Mission & Vision</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#003366]">Our Mission</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Our Mission</h3>
               <p className='text-black'>
                 To provide quality education that nurtures intellectual curiosity, fosters personal growth, and instills values of integrity, respect, and responsibility. We strive to create a learning environment that empowers students to become lifelong learners and responsible global citizens.
               </p>
             </div>
             <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#003366]">Our Vision</h3>
+              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Our Vision</h3>
               <p className='text-black'>
                 To be recognized as a center of educational excellence that prepares students to meet the challenges of a rapidly changing world with confidence, creativity, and compassion. We envision our graduates as well-rounded individuals who contribute positively to society and lead meaningful lives.
               </p>
@@ -84,7 +84,7 @@ export default function About() {
         
         {/* Leadership Team */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Our Leadership</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Our Leadership</h2>
           <div className="bg-white p-6 shadow-md rounded-md">
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -96,7 +96,7 @@ export default function About() {
                   />
                 </div>
                 <h3 className="text-lg font-semibold"></h3>
-                <p className="text-[#003366]">Principal</p>
+                <p className="text-[#23704a]">Principal</p>
               </div>
               <div className="text-center">
                 <div className="w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
@@ -107,7 +107,7 @@ export default function About() {
                   />
                 </div>
                 <h3 className="text-lg font-semibold"></h3>
-                <p className="text-[#003366]">Vice Principal</p>
+                <p className="text-[#23704a]">Vice Principal</p>
               </div>
               <div className="text-center">
                 <div className="w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
@@ -118,7 +118,7 @@ export default function About() {
                   />
                 </div>
                 <h3 className="text-lg font-semibold"></h3>
-                <p className="text-[#003366]">Academic Coordinator</p>
+                <p className="text-[#23704a]">Academic Coordinator</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function About() {
         
         {/* Core Values */}
         <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#003366]">Our Core Values</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Our Core Values</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="bg-white p-4 shadow-md rounded-md text-center">
               <div className="w-16 h-16 bg-[#004080] rounded-full flex items-center justify-center mx-auto mb-3">
@@ -168,12 +168,12 @@ export default function About() {
         </section>
         
         {/* CTA Section */}
-        <section className="bg-[#003366] text-white p-8 rounded-md text-center">
+        <section className="bg-[#23704a] text-white p-8 rounded-md text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Join the Nosegay Family</h2>
           <p className="mb-6 max-w-2xl mx-auto">
             We invite you to be part of our educational journey. Schedule a visit to our campus to experience the Nosegay difference firsthand.
           </p>
-          <button className="bg-white text-[#003366] px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
+          <button className="bg-white text-[#23704a] px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
             Schedule a Visit
           </button>
         </section>

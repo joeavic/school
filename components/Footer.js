@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-900 text-white">
+    <footer className="bg-[#23704a] text-white">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
@@ -12,9 +12,9 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <address className="not-italic">
               <p className="mb-2">Nosegay Public School</p>
-              <p className="mb-2">Address: [School Address]</p>
-              <p className="mb-2">Phone: [School Phone Number]</p>
-              <p className="mb-2">Email: [School Email]</p>
+              <p className="mb-2">Sitarganj Road, Pachpeda, Nanakmatta, U.S.Nagar, Uttarakhand</p>
+              <p className="mb-2">Phone: 9560018943, 7830344111</p>
+              <p className="mb-2">Email: nosegaynanakmatta@gmail.com</p>
             </address>
           </div>
 
@@ -30,11 +30,6 @@ export default function Footer() {
               <li>
                 <Link href="/academics" className="hover:text-blue-300">
                   Academics
-                </Link>
-              </li>
-              <li>
-                <Link href="/admission" className="hover:text-blue-300">
-                  Admission
                 </Link>
               </li>
               <li>
@@ -54,7 +49,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-blue-300" aria-label="Facebook">
+              <a href="https://www.facebook.com/nosegay.nanakmatta/" className="hover:text-blue-300" aria-label="Facebook">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

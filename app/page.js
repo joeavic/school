@@ -13,7 +13,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <div className="relative h-64 w-full md:h-96">
+              <div className="relative h-64 w-full md:h-150">
                 <Image
                   src="/images/principal.jpg"
                   alt="Principal"
@@ -23,7 +23,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 md:pl-12">
-              <h2 className="text-3xl font-bold text-blue-800 mb-4">Welcome to Nosegay Public School</h2>
+              <h2 className="text-3xl font-bold text-[#23704a] mb-4">Welcome to Nosegay Public School</h2>
               <p className="text-gray-700 mb-6">
                 Nosegay Public School is committed to providing quality education with a focus on
                 overall development of students. Our school aims to create a nurturing environment
@@ -35,7 +35,7 @@ export default function Home() {
               </p>
               <Link
                 href="/about"
-                className="bg-blue-800 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors"
+                className="bg-[#23704a] text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors"
               >
                 Learn More
               </Link>
@@ -47,7 +47,7 @@ export default function Home() {
       {/* News & Events Section */}
       <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">News & Events</h2>
+          <h2 className="text-3xl font-bold text-center text-[#23704a] mb-12">News & Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* News Card 1 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -61,11 +61,11 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">March 10, 2025</div>
-                <h3 className="text-xl font-bold text-blue-800 mb-2">Annual Sports Day</h3>
+                <h3 className="text-xl font-bold text-[#23704a] mb-2">Annual Sports Day</h3>
                 <p className="text-gray-700 mb-4">
                   The annual sports day will be held on March 15th. All students are encouraged to participate.
                 </p>
-                <Link href="#" className="text-blue-600 hover:text-blue-800">
+                <Link href="#" className="text-[#23704a] hover:text-[#23704a]">
                   Read More
                 </Link>
               </div>
@@ -83,11 +83,11 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">March 5, 2025</div>
-                <h3 className="text-xl font-bold text-blue-800 mb-2">Science Exhibition</h3>
+                <h3 className="text-xl font-bold text-[#23704a] mb-2">Science Exhibition</h3>
                 <p className="text-gray-700 mb-4">
                   Students from grades 6-10 presented their innovative science projects at the annual exhibition.
                 </p>
-                <Link href="#" className="text-blue-600 hover:text-blue-800">
+                <Link href="#" className="text-[#23704a] hover:text-[#23704a]">
                   Read More
                 </Link>
               </div>
@@ -105,11 +105,11 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">February 28, 2025</div>
-                <h3 className="text-xl font-bold text-blue-800 mb-2">Parent-Teacher Meeting</h3>
+                <h3 className="text-xl font-bold text-[#23704a] mb-2">Parent-Teacher Meeting</h3>
                 <p className="text-gray-700 mb-4">
                   The quarterly parent-teacher meeting will be held on March 20th to discuss student progress.
                 </p>
-                <Link href="#" className="text-blue-600 hover:text-blue-800">
+                <Link href="#" className="text-[#23704a] hover:text-[#23704a]">
                   Read More
                 </Link>
               </div>
@@ -121,7 +121,7 @@ export default function Home() {
       {/* Facilities Section */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Our Facilities</h2>
+          <h2 className="text-3xl font-bold text-center text-[#23704a] mb-12">Our Facilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Facility 1 */}
             <div className="text-center">
@@ -131,7 +131,7 @@ export default function Home() {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="w-10 h-10 text-blue-800"
+                  className="w-10 h-10 text-[#23704a]"
                 >
                   <path
                     strokeLinecap="round"
@@ -141,7 +141,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-blue-800 mb-2">Modern Library</h3>
+              <h3 className="text-xl font-bold text-[#23704a] mb-2">Modern Library</h3>
               <p className="text-gray-700">
                 Our library has a vast collection of books, journals, and digital resources to support learning.
               </p>
@@ -155,7 +155,7 @@ export default function Home() {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="w-10 h-10 text-blue-800"
+                  className="w-10 h-10 text-[#23704a]"
                 >
                   <path
                     strokeLinecap="round"
@@ -165,7 +165,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-blue-800 mb-2">Computer Labs</h3>
+              <h3 className="text-xl font-bold text-[#23704a] mb-2">Computer Labs</h3>
               <p className="text-gray-700">
                 Well-equipped computer labs with the latest technology to enhance digital literacy.
               </p>
@@ -179,7 +179,7 @@ export default function Home() {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="w-10 h-10 text-blue-800"
+                  className="w-10 h-10 text-[#23704a]"
                 >
                   <path
                     strokeLinecap="round"
@@ -195,7 +195,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-blue-800 mb-2">Sports Facilities</h3>
+              <h3 className="text-xl font-bold text-[#23704a] mb-2">Sports Facilities</h3>
               <p className="text-gray-700">
                 Extensive sports facilities including playgrounds, courts, and equipment for various games.
               </p>
