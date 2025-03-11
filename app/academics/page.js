@@ -1,8 +1,7 @@
 // pages/academics.js
 import React from 'react';
-import Header from '../../components/Header';
 import Head from 'next/head';
-import Link from 'next/link';
+
 
 export default function Academics() {
   // Academic programs data
