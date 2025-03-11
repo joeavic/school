@@ -31,7 +31,7 @@ export default function Admissions() {
           <section className="mb-12">
             <h3 className="text-2xl font-bold text-blue-900 mb-4">Welcome to NoseGay Public School Admissions</h3>
             <p className="text-gray-700 max-w-4xl mb-4">
-              We are delighted that you are considering Nosegay Public School for your child's education. Our admissions process is designed to be straightforward and supportive, ensuring that we find the right fit for your child's educational journey.
+              We are delighted that you are considering Nosegay Public School for your child&apos;s education. Our admissions process is designed to be straightforward and supportive, ensuring that we find the right fit for your child&apos;s educational journey.
             </p>
             <p className="text-gray-700 max-w-4xl">
               Nosegay Public School is committed to providing a nurturing environment where students can excel academically, develop their talents, and grow into responsible global citizens. We welcome applications from families who share our vision and values.
@@ -104,7 +104,7 @@ export default function Admissions() {
                     <div className="bg-blue-900 text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-1 flex-shrink-0">3</div>
                     <div>
                       <h4 className="font-semibold text-lg">Parent Interview</h4>
-                      <p className="text-gray-700">Parents are invited for an interaction with the school administration to understand mutual expectations and the school's philosophy.</p>
+                      <p className="text-gray-700">Parents are invited for an interaction with the school administration to understand mutual expectations and the school&apos;s philosophy.</p>
                     </div>
                   </div>
                   
