@@ -43,7 +43,7 @@ export default function About() {
                   Our school was established with the vision of providing holistic education that balances academic excellence with character development. Over the years, we have continuously evolved our teaching methodologies and infrastructure to meet the changing needs of education while staying true to our core values.
                 </p>
                 <p className='text-black'>
-                  Today, Nosegay Public School stands as a testament to our founders\' vision, offering state-of-the-art facilities, a diverse curriculum, and a nurturing environment where students can discover and develop their unique potential.
+                  Today, Nosegay Public School stands as a testament to our founder&apos;s vision, offering state-of-the-art facilities, a diverse curriculum, and a nurturing environment where students can discover and develop their unique potential.
                 </p>
               </div>
               <div className="md:w-1/3">
