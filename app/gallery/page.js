@@ -7,7 +7,6 @@ import Link from 'next/link';
 import styles from '../../styles/Gallery.module.css';
 
 export default function Gallery() {
-  const [activeFilter, setActiveFilter] = useState('all');
   const [selectedImage, setSelectedImage] = useState(null);
   
   // Sample gallery items - replace with your actual content
@@ -69,8 +68,6 @@ export default function Gallery() {
       imagePath: '/images/gallery/cafeteria.jpg',
     },
   ];
-
-  const categories = ['all', 'campus', 'academics', 'events'];
   
   const filteredItems = activeFilter === 'all' 
     ? galleryItems 
