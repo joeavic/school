@@ -43,80 +43,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* News & Events Section */}
-      <section className="py-12 bg-gray-100">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-[#23704a] mb-12">News & Events</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* News Card 1 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="/images/news1.jpg"
-                  alt="News 1"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">March 10, 2025</div>
-                <h3 className="text-xl font-bold text-[#23704a] mb-2">Annual Sports Day</h3>
-                <p className="text-gray-700 mb-4">
-                  The annual sports day will be held on March 15th. All students are encouraged to participate.
-                </p>
-                <Link href="#" className="text-[#23704a] hover:text-[#23704a]">
-                  Read More
-                </Link>
-              </div>
-            </div>
-
-            {/* News Card 2 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="/images/news2.jpg"
-                  alt="News 2"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">March 5, 2025</div>
-                <h3 className="text-xl font-bold text-[#23704a] mb-2">Science Exhibition</h3>
-                <p className="text-gray-700 mb-4">
-                  Students from grades 6-10 presented their innovative science projects at the annual exhibition.
-                </p>
-                <Link href="#" className="text-[#23704a] hover:text-[#23704a]">
-                  Read More
-                </Link>
-              </div>
-            </div>
-
-            {/* News Card 3 */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="/images/news3.jpg"
-                  alt="News 3"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">February 28, 2025</div>
-                <h3 className="text-xl font-bold text-[#23704a] mb-2">Parent-Teacher Meeting</h3>
-                <p className="text-gray-700 mb-4">
-                  The quarterly parent-teacher meeting will be held on March 20th to discuss student progress.
-                </p>
-                <Link href="#" className="text-[#23704a] hover:text-[#23704a]">
-                  Read More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Facilities Section */}
       <section className="py-12 bg-white">
@@ -197,7 +124,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-[#23704a] mb-2">Sports Facilities</h3>
               <p className="text-gray-700">
-                Extensive sports facilities including playgrounds, courts, and equipment for various games.
+                Playground with 400m athletic track courts.
               </p>
             </div>
           </div>

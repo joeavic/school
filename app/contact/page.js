@@ -66,9 +66,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold text-[#23704a] mb-2">Address</h3>
               <p className="text-gray-700">
-                123 School Road<br />
-                New Delhi, 110001<br />
-                India
+                Sitarganj Road, Pachpeda, Nanakmatta<br />
+                U.S. Nagar, Uttarakhand - 262311<br />
               </p>
             </div>
 
@@ -81,9 +80,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold text-[#23704a] mb-2">Phone</h3>
               <p className="text-gray-700">
-                Main Office: +91 11 2345 6789<br />
-                Admission Enquiry: +91 11 2345 6780<br />
-                Fax: +91 11 2345 6788
+                Main Office: +91 9560018943<br />
+                Admission Enquiry: +91 7830344111<br />
               </p>
             </div>
 
@@ -96,9 +94,7 @@ export default function ContactPage() {
               </div>
               <h3 className="text-xl font-bold text-[#23704a] mb-2">Email</h3>
               <p className="text-gray-700">
-                General Enquiries: info@nosegayschool.edu.in<br />
-                Admissions: admissions@nosegayschool.edu.in<br />
-                Principal: principal@nosegayschool.edu.in
+                nosegaynanakmatta@gmail.com<br />
               </p>
             </div>
           </div>
@@ -106,11 +102,16 @@ export default function ContactPage() {
           {/* Map */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-[#23704a] mb-8 text-center">Our Location</h2>
-            <div className="h-96 bg-gray-300 rounded-lg">
-              {/* Replace with actual map or embed Google Maps */}
-              <div className="w-full h-full flex items-center justify-center text-gray-500">
-                Interactive Map will be displayed here
-              </div>
+            <div className="h-96 rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3491.6331479368764!2d79.7867924!3d28.9389395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a05f44ee1e65f3%3A0xcd258e8a5af89e40!2sNosegay%20Public%20School!5e0!3m2!1sen!2sin!4v1741765151293!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
 

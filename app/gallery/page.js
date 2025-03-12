@@ -95,19 +95,8 @@ export default function Gallery() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Photo Gallery</h1>
         
-        <div className={styles.filterContainer}>
-          {categories.map((category) => (
-            <button
-              key={category}
-              className={`${styles.filterButton} ${activeFilter === category ? styles.active : ''}`}
-              onClick={() => setActiveFilter(category)}
-            >
-              {category.charAt(0).toUpperCase() + category.slice(1)}
-            </button>
-          ))}
-        </div>
+      
 
         <div className={styles.gallery}>
           {filteredItems.map((item) => (
@@ -127,9 +116,6 @@ export default function Gallery() {
                 />
               </div>
               <div className={styles.galleryInfo}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-                <span className={styles.category}>{item.category}</span>
               </div>
             </div>
           ))}
@@ -146,16 +132,11 @@ export default function Gallery() {
             <button className={styles.closeButton} onClick={closeLightbox}>×</button>
             <div className={styles.lightboxImageContainer}>
               <Image 
-                src={selectedImage.imagePath} 
-                alt={selectedImage.title}
+                src={selectedImage.imagePath}
                 fill
                 className={styles.lightboxImage}
                 sizes="(max-width: 768px) 100vw, 80vw"
               />
-            </div>
-            <div className={styles.lightboxInfo}>
-              <h2>{selectedImage.title}</h2>
-              <p>{selectedImage.description}</p>
             </div>
           </div>
         </div>

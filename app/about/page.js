@@ -37,25 +37,24 @@ export default function About() {
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-2/3">
                 <p className="mb-4 text-black">
-                  Founded in 1995, Nosegay Public School has been a beacon of educational excellence in the region for nearly three decades. What began as a small institution with a handful of students has grown into a prestigious educational establishment serving thousands of families.
+                  Founded in 2019, Nosegay Public School has been a beacon of educational excellence in the region for last five years. What began as a small institution with a handful of students has grown into a prestigious educational establishment.
                 </p>
                 <p className="mb-4 text-black">
                   Our school was established with the vision of providing holistic education that balances academic excellence with character development. Over the years, we have continuously evolved our teaching methodologies and infrastructure to meet the changing needs of education while staying true to our core values.
                 </p>
                 <p className='text-black'>
-                  Today, Nosegay Public School stands as a testament to our founder&apos;s vision, offering state-of-the-art facilities, a diverse curriculum, and a nurturing environment where students can discover and develop their unique potential.
+                  Today, Nosegay Public School has achieved various benchmarks. Through quality education and a diverse curriculum where students can discover and develop their unique potential.
                 </p>
               </div>
               <div className="md:w-1/3">
                 <div className="bg-gray-100 p-4 rounded-md">
                   <h3 className="text-xl font-semibold mb-2 text-[#23704a]">Key Milestones</h3>
                   <ul className="list-disc pl-5 space-y-2 text-black">
-                    <li>1995 - School founded with 50 students</li>
-                    <li>2000 - Expanded to include secondary education</li>
-                    <li>2005 - Built new campus with modern facilities</li>
-                    <li>2010 - Received national recognition for academic excellence</li>
-                    <li>2015 - Introduced innovative STEM curriculum</li>
-                    <li>2020 - Celebrated 25 years of educational service</li>
+                    <li>2019 - School started with 88 students</li>
+                    <li>2000 - First and only school in the region to conduct effective online classes during COVID pandemic</li>
+                    <li>2022 - Class 6th started</li>
+                    <li>2023 - Laid foundation stone of new Nosegay campus</li>
+                    <li>2025 - New campus inaugurated</li>
                   </ul>
                 </div>
               </div>
@@ -70,13 +69,13 @@ export default function About() {
             <div className="bg-white p-6 shadow-md rounded-md">
               <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Our Mission</h3>
               <p className='text-black'>
-                To provide quality education that nurtures intellectual curiosity, fosters personal growth, and instills values of integrity, respect, and responsibility. We strive to create a learning environment that empowers students to become lifelong learners and responsible global citizens.
+                Strong education build strong characters. Strong characters build a strong nation. Providing quality based education that builds in confidence and nurtures curiosity and growth. A comprehensive curriculum is planned for cognitive domain and soft skills development. 
               </p>
             </div>
             <div className="bg-white p-6 shadow-md rounded-md">
               <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Our Vision</h3>
               <p className='text-black'>
-                To be recognized as a center of educational excellence that prepares students to meet the challenges of a rapidly changing world with confidence, creativity, and compassion. We envision our graduates as well-rounded individuals who contribute positively to society and lead meaningful lives.
+                To be recognized as a center of educational excellence in the region. 
               </p>
             </div>
           </div>
@@ -167,16 +166,6 @@ export default function About() {
           </div>
         </section>
         
-        {/* CTA Section */}
-        <section className="bg-[#23704a] text-white p-8 rounded-md text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Join the Nosegay Family</h2>
-          <p className="mb-6 max-w-2xl mx-auto">
-            We invite you to be part of our educational journey. Schedule a visit to our campus to experience the Nosegay difference firsthand.
-          </p>
-          <button className="bg-white text-[#23704a] px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
-            Schedule a Visit
-          </button>
-        </section>
       </main>
       
     </>

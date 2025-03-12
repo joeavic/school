@@ -7,6 +7,14 @@ export default function Academics() {
   // Academic programs data
   const academicPrograms = [
     {
+      id: 'kindergarten',
+      name: 'Kindergarten',
+      grades: 'Nursery, Prep, UKG',
+      description: 'Our Kindergarten program is designed to provide a nurturing and stimulating environment where children can learn through play and exploration.',
+      subjects: ['Literacy', 'Numeracy', 'Sensory Activities', 'Art & Craft', 'Music & Movement', 'Social Skills'],
+      features: ['Play-based learning', 'Interactive storytelling', 'Outdoor play areas', 'Thematic learning']
+    },
+    {
       id: 'primary',
       name: 'Primary School',
       grades: 'Grades 1-5',
@@ -29,14 +37,6 @@ export default function Academics() {
       description: 'Our secondary education prepares students for board examinations while developing critical thinking and problem-solving abilities.',
       subjects: ['English', 'Mathematics', 'Science (Physics, Chemistry, Biology)', 'Social Science', 'Language', 'Computer Applications', 'Physical Education'],
       features: ['Board exam preparation', 'Career guidance', 'Specialized coaching', 'Laboratory sessions']
-    },
-    {
-      id: 'senior',
-      name: 'Senior Secondary',
-      grades: 'Grades 11-12',
-      description: 'The senior secondary program offers specialized streams to prepare students for higher education and future careers.',
-      subjects: ['Science Stream (PCM/PCB)', 'Commerce Stream', 'Humanities Stream'],
-      features: ['College readiness', 'Competitive exam preparation', 'Career counseling', 'Research projects']
     }
   ];
 
@@ -88,12 +88,10 @@ export default function Academics() {
                 <div className="bg-gray-100 p-4 rounded-md">
                   <h3 className="text-xl font-semibold mb-2 text-[#23704a]">Key Principles</h3>
                   <ul className="list-disc pl-5 space-y-2 text-black">
-                    <li>Student-centered learning</li>
-                    <li>Inquiry-based approach</li>
+                    <li>Child centeric learning</li>
+                    <li>Focus on values</li>
+                    <li>Aesthetic learning</li>
                     <li>Integration of technology</li>
-                    <li>Focus on conceptual understanding</li>
-                    <li>Continuous assessment and feedback</li>
-                    <li>Global citizenship education</li>
                   </ul>
                 </div>
               </div>
@@ -142,68 +140,6 @@ export default function Academics() {
                 </div>
               </div>
             ))}
-          </div>
-        </section>
-        
-        {/* Teaching Methodology */}
-        <section className="mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#23704a]">Teaching Methodology</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Experiential Learning</h3>
-              <p className="mb-4 text-black">
-                Our teachers employ experiential learning techniques that allow students to learn by doing. Through hands-on activities, experiments, and real-world applications, students develop deeper understanding and retention of concepts.
-              </p>
-              <div className="h-40 bg-gray-200 mb-4 text-black rounded-md overflow-hidden">
-                <img
-                  src="/api/placeholder/400/160"
-                  alt="Experiential learning in action"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-            
-            <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Collaborative Learning</h3>
-              <p className="mb-4 text-black text-black">
-                We encourage collaboration through group projects, peer teaching, and team-based activities. This approach helps students develop communication skills, empathy, and the ability to work effectively in diverse teams.
-              </p>
-              <div className="h-40 bg-gray-200 mb-4 text-black rounded-md overflow-hidden">
-                <img
-                  src="/api/placeholder/400/160"
-                  alt="Students collaborating on a project"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-            
-            <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Technology Integration</h3>
-              <p className="mb-4 text-black text">
-                We integrate technology into our curriculum to enhance learning experiences and prepare students for the digital age. Our smart classrooms, computer labs, and digital resources make learning more interactive and engaging.
-              </p>
-              <div className="h-40 bg-gray-200 mb-4 text-black rounded-md overflow-hidden">
-                <img
-                  src="/api/placeholder/400/160"
-                  alt="Technology in classroom"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-            
-            <div className="bg-white p-6 shadow-md rounded-md">
-              <h3 className="text-xl font-semibold mb-3 text-[#23704a]">Personalized Approach</h3>
-              <p className="mb-4 text-black">
-                We recognize that each child learns differently. Our teachers use differentiated instruction techniques to cater to various learning styles and abilities, ensuring that every student receives the support they need to excel.
-              </p>
-              <div className="h-40 bg-gray-200 mb-4 text-black rounded-md overflow-hidden">
-                <img
-                  src="/api/placeholder/400/160"
-                  alt="Teacher helping individual student"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
           </div>
         </section>
         
@@ -275,26 +211,6 @@ export default function Academics() {
                 <h3 className="text-lg font-semibold mb-2 text-black" >Arts</h3>
                 <p className="text-sm text-black">Music, dance, drama, painting, crafts, and pottery.</p>
               </div>
-              
-              <div className="bg-gray-100 p-4 rounded-md text-center">
-                <div className="w-16 h-16 bg-[#004080] rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-8 h-8">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-2 text-black">Clubs</h3>
-                <p className="text-sm text-black">Debate, science, math, robotics, coding, eco, and literary clubs.</p>
-              </div>
-              
-              <div className="bg-gray-100 p-4 rounded-md text-center">
-                <div className="w-16 h-16 bg-[#004080] rounded-full flex items-center justify-center mx-auto mb-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-8 h-8">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-2 text-black">Community Service</h3>
-                <p className="text-sm text-black">Social outreach, environmental initiatives, and community welfare projects.</p>
-              </div>
             </div>
             
             <div>
@@ -314,22 +230,6 @@ export default function Academics() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        
-        {/* CTA Section */}
-        <section className="bg-[#23704a] text-white p-8 rounded-md text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Experience Our Academic Excellence</h2>
-          <p className="mb-6 max-w-2xl mx-auto">
-            We invite you to visit our campus and experience our teaching methodology and academic programs firsthand.
-          </p>
-          <div className="flex justify-center gap-4 flex-wrap">
-            <button className="bg-white text-[#23704a] px-6 py-3 rounded-md font-bold hover:bg-gray-100 transition-colors">
-              Request Prospectus
-            </button>
-            <button className="bg-transparent border border-white text-white px-6 py-3 rounded-md font-bold hover:bg-white/10 transition-colors">
-              Schedule a Visit
-            </button>
           </div>
         </section>
       </main>
