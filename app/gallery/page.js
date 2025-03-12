@@ -7,6 +7,7 @@ import Link from 'next/link';
 import styles from '../../styles/Gallery.module.css';
 
 export default function Gallery() {
+  const [activeFilter] = useState('all');
   const [selectedImage, setSelectedImage] = useState(null);
   
   // Sample gallery items - replace with your actual content
